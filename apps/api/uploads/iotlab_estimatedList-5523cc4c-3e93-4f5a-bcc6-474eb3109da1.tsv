@@ -1,0 +1,56 @@
+S.No	Product Description	Quantity
+1	Microcontrollers & Modules	
+1.1	Photon 2 Microcontroller	1
+1.2	ESP32 Module	1
+1.3	Arduino Uno	3
+1.4	Arduino Nano	5
+1.5	Bluetooth Module	1
+1.6	GPRS/GSM Module	1
+2	Drone Specific Components	
+2.1	Radio Link Crossflight Motherboard	1
+2.2	GPS Module (Ublox Neo-7M)	1
+3	Sensors & Measurement	
+3.1	PMS5003 PM2.5 Air Quality Sensor	1
+3.2	Ultrasonic Sensor	15
+3.3	IR Sensor Module	15
+3.4	Soil Moisture Sensor	5
+3.5	MPU6050 Gyroscope / Accelerometer	1
+3.6	MAX30102 Heart Rate & SpO2 Sensor	1
+3.7	DHT11 Humidity & Temperature Sensor	1
+3.8	MQ-2 Gas Sensor	1
+3.9	PIR Motion Sensor (HC-SR501)	1
+3.1	SW-420 Vibration / Knock Sensor	1
+3.11	Digital Barometric Pressure Sensor	1
+3.12	Pulse Sensor Module	1
+3.13	Hall Effect Sensor Module	1
+3.14	Sound Sensor Module	1
+3.15	Rain Detection Sensor	1
+3.16	Speed Sensor Module	1
+3.17	Infrared Flame Sensor	1
+3.18	Metal Sensor Module	1
+3.19	Color Sensor Module	1
+3.2	Alcohol Sensor	1
+3.21	Fingerprint Sensor	1
+3.22	Range Sensor	5
+4	Displays & Indicators	
+4.1	2.4" TFT Display Screen	3
+4.2	I2C LCD Modules	5
+4.3	Buzzer	15
+5	Passive Components & Wiring	
+5.1	Jumper Wires (Male to Male)	20
+5.2	Jumper Wires (Male to Female)	20
+5.3	Jumper Wires (Female to Female)	20
+5.4	220 Ohm Resistor	10
+5.5	10k Ohm Resistor	10
+5.6	Pin Headers	10
+6	Tools & Safety	
+6.1	Soldering Iron	1
+6.2	Soldering Wire	2
+6.3	Toolkit	1
+6.4	Glue Gun	1
+6.5	Safety Gloves	2
+7	Thermal Management	
+7.1	Peltier Module (TEC1-12706)	1
+7.2	Peltier Module (SP1848)	1
+7.3	Aluminum Heat Sinks	2
+7.4	Thermal Paste	2

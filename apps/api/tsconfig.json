@@ -5,8 +5,12 @@
     "rootDir": "src",
     "baseUrl": ".",
     "paths": {
-      "@repo/db": ["src/index.ts"]
+      "@repo/db": [
+        "../../packages/db/index.ts"
+      ]
     }
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }
