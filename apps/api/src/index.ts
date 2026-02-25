@@ -122,6 +122,35 @@ app.post('/compress/:id',async(req,res)=>{
     }
 })
 
+app.get('/download/:id',async(req,res)=>{
+    try {
+        const doc = await prisma.document.findUnique({
+            where:{
+                id: req.params.id
+            }
+        })
+
+        if(!doc){
+            return res.status(404).json({
+                error:'Document not found'
+            })
+        }
+
+        const fileName = doc.compressedSize ? `${doc.filename}` : doc.filename ;
+        const filePath = path.join(__dirname,`../uploads`,fileName);
+
+        if(!fs.existsSync(filePath)){
+            return res.status(404).json({
+                error:'File not found on server'
+            })
+        }
+        // download file
+        res.download(filePath,doc.filename);
+    } catch (error) {
+        res.status(500).json({ error: 'Could not process download' });
+    }
+})
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, async() => {
     console.log(`Server running on port ${PORT}`);
